@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power BI - Personal Finance & Expense Analysis Dashboard</title>
+    <!-- Chart.js & Fonts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-canvas: #0b132b;
+            --bg-card: #1c2541;
+            --bg-card-hover: #222e50;
+            --border-card: #3a506b;
+            --text-main: #ffffff;
+            --text-sub: #90e0ef;
+            --text-muted: #a0aab2;
+            --cyan-accent: #00e5ff;
+            --pink-accent: #ff006e;
+            --green-accent: #4ade80;
+            --amber-accent: #fbbf24;
+            --red-accent: #ff5252;
+            --blue-accent: #3a86ff;
+            --purple-accent: #7c4dff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-canvas);
+            color: var(--text-main);
+            padding: 20px 30px;
+            min-height: 100vh;
+        }
+
+        /* Power BI Ribbon / Header */
+        .dashboard-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--border-card);
+            margin-bottom: 20px;
+        }
+
+        .header-title h1 {
+            font-size: 24px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            background: linear-gradient(90deg, #ffffff, #90e0ef);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .header-title p {
+            font-size: 13px;
+            color: var(--text-sub);
+            margin-top: 3px;
+        }
+
+        .filter-ribbon {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .filter-badge {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-card);
+            border-radius: 6px;
+            padding: 6px 14px;
+            font-size: 12px;
+            color: #e0e1dd;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .filter-badge.active {
+            border-color: var(--cyan-accent);
+            color: var(--cyan-accent);
+            font-weight: 600;
+        }
+
+        /* KPI Cards Grid */
+        .kpi-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 16px;
+            margin-bottom: 22px;
+        }
+
+        .kpi-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-card);
+            border-radius: 8px;
+            padding: 16px 18px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        .kpi-card:hover {
+            transform: translateY(-2px);
+            background-color: var(--bg-card-hover);
+        }
+
+        .kpi-card::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 4.5px;
+        }
+
+        .kpi-1::before { background-color: var(--cyan-accent); }
+        .kpi-2::before { background-color: var(--pink-accent); }
+        .kpi-3::before { background-color: var(--green-accent); }
+        .kpi-4::before { background-color: var(--amber-accent); }
+        .kpi-5::before { background-color: var(--red-accent); }
+
+        .kpi-label {
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--text-sub);
+            letter-spacing: 0.5px;
+            margin-bottom: 6px;
+        }
+
+        .kpi-value {
+            font-size: 23px;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 4px;
+        }
+
+        .kpi-sub {
+            font-size: 11px;
+            color: var(--text-muted);
+        }
+
+        /* Main Visuals Grid */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            gap: 18px;
+        }
+
+        .chart-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-card);
+            border-radius: 8px;
+            padding: 18px 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+        }
+
+        .chart-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 14px;
+        }
+
+        .chart-title {
+            font-size: 14px;
+            font-weight: 700;
+            color: #ffffff;
+        }
+
+        .chart-badge {
+            font-size: 10px;
+            background-color: rgba(255, 255, 255, 0.08);
+            padding: 3px 8px;
+            border-radius: 4px;
+            color: var(--text-sub);
+        }
+
+        /* Sizing Layout */
+        .span-6 { grid-column: span 6; }
+        .span-3 { grid-column: span 3; }
+        .span-4 { grid-column: span 4; }
+        .span-8 { grid-column: span 8; }
+        .span-12 { grid-column: span 12; }
+
+        .chart-wrapper {
+            position: relative;
+            width: 100%;
+            height: 260px;
+        }
+
+        .donut-wrapper {
+            position: relative;
+            width: 100%;
+            height: 260px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Footer */
+        .dashboard-footer {
+            margin-top: 24px;
+            padding-top: 14px;
+            border-top: 1px solid var(--border-card);
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+
+        @media (max-width: 1200px) {
+            .kpi-container { grid-template-columns: repeat(2, 1fr); }
+            .span-6, .span-3, .span-4, .span-8 { grid-column: span 12; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Header & Slicers -->
+    <div class="dashboard-header">
+        <div class="header-title">
+            <h1>PERSONAL FINANCE & EXPENSE ANALYSIS DASHBOARD</h1>
+            <p>Annual Cash Flow, Expense Categorization, Payment Channels & Budget Variance Performance (FY 2026)</p>
+        </div>
+        <div class="filter-ribbon">
+            <div class="filter-badge">Year: <strong>2026</strong></div>
+            <div class="filter-badge">Currency: <strong>INR (₹)</strong></div>
+            <div class="filter-badge active">Power BI Interactive Canvas</div>
+        </div>
+    </div>
+
+    <!-- 2. KPI Cards Row -->
+    <div class="kpi-container">
+        <div class="kpi-card kpi-1">
+            <div class="kpi-label">Total Annual Income</div>
+            <div class="kpi-value">₹ 11,76,600</div>
+            <div class="kpi-sub">100% Cash Inflows</div>
+        </div>
+        <div class="kpi-card kpi-2">
+            <div class="kpi-label">Total Annual Expenses</div>
+            <div class="kpi-value">₹ 10,80,041</div>
+            <div class="kpi-sub">Avg ₹ 90,003 / month</div>
+        </div>
+        <div class="kpi-card kpi-3">
+            <div class="kpi-label">Total Net Savings</div>
+            <div class="kpi-value">₹ 96,559</div>
+            <div class="kpi-sub">Net Liquid Retained</div>
+        </div>
+        <div class="kpi-card kpi-4">
+            <div class="kpi-label">Annual Savings Rate</div>
+            <div class="kpi-value">8.21%</div>
+            <div class="kpi-sub">Benchmark: &gt; 20.0%</div>
+        </div>
+        <div class="kpi-card kpi-5">
+            <div class="kpi-label">Budget Variance</div>
+            <div class="kpi-value">-₹ 48,641</div>
+            <div class="kpi-sub" style="color: #ff5252;">Over Budget (+4.7%)</div>
+        </div>
+    </div>
+
+    <!-- 3. Visualizations Grid Row 1 -->
+    <div class="charts-grid">
+        <!-- Visual 1: Monthly Income vs Expenses -->
+        <div class="chart-card span-6">
+            <div class="chart-header">
+                <div class="chart-title">Monthly Inflow (Income) vs Outflow (Expenses)</div>
+                <div class="chart-badge">Dual Line + Savings Margin</div>
+            </div>
+            <div class="chart-wrapper">
+                <canvas id="incomeExpenseChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Visual 2: Category Breakdown Donut -->
+        <div class="chart-card span-3">
+            <div class="chart-header">
+                <div class="chart-title">Expense Distribution</div>
+                <div class="chart-badge">By Category</div>
+            </div>
+            <div class="donut-wrapper">
+                <canvas id="categoryDonutChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Visual 3: Payment Method Donut -->
+        <div class="chart-card span-3">
+            <div class="chart-header">
+                <div class="chart-title">Payment Method Share</div>
+                <div class="chart-badge">By Instrument</div>
+            </div>
+            <div class="donut-wrapper">
+                <canvas id="paymentDonutChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Visual 4: Monthly Expense Trend -->
+        <div class="chart-card span-6">
+            <div class="chart-header">
+                <div class="chart-title">Monthly Expense Progression vs Benchmark Average</div>
+                <div class="chart-badge">Clustered Column</div>
+            </div>
+            <div class="chart-wrapper">
+                <canvas id="monthlyTrendChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Visual 5: Budget vs Actual Comparison -->
+        <div class="chart-card span-6">
+            <div class="chart-header">
+                <div class="chart-title">Budget Allocation vs Actual Outflow by Category</div>
+                <div class="chart-badge">Clustered Horizontal Bar</div>
+            </div>
+            <div class="chart-wrapper">
+                <canvas id="budgetActualChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="dashboard-footer">
+        <span>Personal Finance and Expense Analysis Using Python & Power BI</span>
+        <span>Generated with Synthetic Sample Data (INR ₹)</span>
+    </div>
+
+    <!-- Chart Configuration Script -->
+    <script>
+        const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+        
+        // Exact monthly calculations from Python
+        const incomeData = [98000, 114000, 102500, 80000, 96000, 108500, 108000, 101000, 84500, 95000, 106000, 83100];
+        const expenseData = [86365, 87431, 88185, 93708, 92237, 91522, 90812, 88746, 89314, 91642, 92120, 87959];
+        
+        // Chart Defaults for Power BI Dark Canvas
+        Chart.defaults.color = '#A0AAB2';
+        Chart.defaults.font.family = "'Segoe UI', sans-serif";
+        Chart.defaults.font.size = 11;
+
+        // 1. Line Chart: Income vs Expenses
+        new Chart(document.getElementById('incomeExpenseChart'), {
+            type: 'line',
+            data: {
+                labels: months,
+                datasets: [
+                    {
+                        label: 'Total Income (₹)',
+                        data: incomeData,
+                        borderColor: '#00e5ff',
+                        backgroundColor: 'rgba(0, 229, 255, 0.12)',
+                        fill: true,
+                        tension: 0.3,
+                        borderWidth: 2.5,
+                        pointBackgroundColor: '#00e5ff',
+                        pointRadius: 4
+                    },
+                    {
+                        label: 'Total Expenses (₹)',
+                        data: expenseData,
+                        borderColor: '#ff5252',
+                        backgroundColor: 'rgba(255, 82, 82, 0.08)',
+                        fill: false,
+                        tension: 0.3,
+                        borderWidth: 2.5,
+                        pointBackgroundColor: '#ff5252',
+                        pointRadius: 4
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { position: 'top', labels: { boxWidth: 12, color: '#ffffff' } },
+                    tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ₹ ${ctx.raw.toLocaleString('en-IN')}` } }
+                },
+                scales: {
+                    y: {
+                        grid: { color: '#2D3B55' },
+                        ticks: { callback: v => '₹' + (v/1000) + 'K' }
+                    },
+                    x: { grid: { color: '#2D3B55' } }
+                }
+            }
+        });
+
+        // 2. Donut: Category Breakdown
+        new Chart(document.getElementById('categoryDonutChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Rent', 'EMI', 'Groceries', 'Food', 'Shopping', 'Travel', 'Other (7 cats)'],
+                datasets: [{
+                    data: [240000, 126000, 124118, 92838, 86420, 81450, 329215],
+                    backgroundColor: ['#ff4081', '#7c4dff', '#00e5ff', '#ffb300', '#00e676', '#ff6e40', '#607d8b'],
+                    borderColor: '#1c2541',
+                    borderWidth: 3
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                cutout: '65%',
+                plugins: {
+                    legend: { position: 'bottom', labels: { boxWidth: 10, color: '#e0e1dd', font: { size: 9.5 } } }
+                }
+            }
+        });
+
+        // 3. Donut: Payment Method
+        new Chart(document.getElementById('paymentDonutChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['UPI', 'Credit Card', 'Net Banking', 'Debit Card', 'Cash'],
+                datasets: [{
+                    data: [437185, 382410, 142100, 84320, 34026],
+                    backgroundColor: ['#00e5ff', '#7c4dff', '#ff5252', '#ffb300', '#69f0ae'],
+                    borderColor: '#1c2541',
+                    borderWidth: 3
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                cutout: '65%',
+                plugins: {
+                    legend: { position: 'bottom', labels: { boxWidth: 10, color: '#e0e1dd', font: { size: 9.5 } } }
+                }
+            }
+        });
+
+        // 4. Column: Monthly Expense Trend
+        new Chart(document.getElementById('monthlyTrendChart'), {
+            type: 'bar',
+            data: {
+                labels: months,
+                datasets: [
+                    {
+                        label: 'Monthly Expense (₹)',
+                        data: expenseData,
+                        backgroundColor: '#4361ee',
+                        borderColor: '#4895ef',
+                        borderWidth: 1,
+                        borderRadius: 4
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false },
+                    tooltip: { callbacks: { label: ctx => `Expense: ₹ ${ctx.raw.toLocaleString('en-IN')}` } }
+                },
+                scales: {
+                    y: {
+                        grid: { color: '#2D3B55' },
+                        ticks: { callback: v => '₹' + (v/1000) + 'K' }
+                    },
+                    x: { grid: { display: false } }
+                }
+            }
+        });
+
+        // 5. Horizontal Bar: Budget vs Actual
+        new Chart(document.getElementById('budgetActualChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Rent', 'EMI', 'Groceries', 'Food', 'Shopping', 'Travel', 'Electricity', 'Healthcare'],
+                datasets: [
+                    {
+                        label: 'Planned Budget',
+                        data: [240000, 126000, 144000, 108000, 93000, 69000, 33000, 36000],
+                        backgroundColor: '#3a86ff',
+                        borderRadius: 3
+                    },
+                    {
+                        label: 'Actual Spent',
+                        data: [240000, 126000, 124118, 92838, 86420, 81450, 29800, 34200],
+                        backgroundColor: '#ff006e',
+                        borderRadius: 3
+                    }
+                ]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { position: 'bottom', labels: { boxWidth: 12, color: '#ffffff' } },
+                    tooltip: { callbacks: { label: ctx => `${ctx.dataset.label}: ₹ ${ctx.raw.toLocaleString('en-IN')}` } }
+                },
+                scales: {
+                    x: {
+                        grid: { color: '#2D3B55' },
+                        ticks: { callback: v => '₹' + (v/1000) + 'K' }
+                    },
+                    y: { grid: { display: false } }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

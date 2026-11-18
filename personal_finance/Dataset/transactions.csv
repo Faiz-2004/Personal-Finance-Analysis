@@ -1,0 +1,365 @@
+Transaction_ID,Date,Description,Category,Type,Amount,Payment_Method,Account_Type,Month,Year
+TXN00001,2026-01-03,Monthly Corporate Salary Credit,Salary,Income,80000.0,Net Banking,Salary Account,January,2026
+TXN00002,2026-01-04,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,388.44,Debit Card,Salary Account,January,2026
+TXN00003,2026-01-05,Apartment Monthly Rent,Rent,Expense,20000.0,Net Banking,Salary Account,January,2026
+TXN00004,2026-01-05,Household repairs / Laundry / Miscellaneous,Other Expenses,Expense,935.71,Cash,Cash Wallet,January,2026
+TXN00005,2026-01-07,"Clothing, footwear & personal gear",Shopping,Expense,7401.9,Debit Card,Salary Account,January,2026
+TXN00006,2026-01-08,Flight/Train tickets & weekend getaway stays,Travel,Expense,10808.1,Net Banking,Salary Account,January,2026
+TXN00007,2026-01-09,High-Speed Broadband Subscription,Internet,Expense,1199.0,UPI,Salary Account,January,2026
+TXN00008,2026-01-10,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1385.89,UPI,Savings Account,January,2026
+TXN00009,2026-01-10,Car Loan EMI Auto-debit,EMI,Expense,10500.0,Net Banking,Salary Account,January,2026
+TXN00010,2026-01-11,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1397.2,UPI,Salary Account,January,2026
+TXN00011,2026-01-11,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1175.2,UPI,Salary Account,January,2026
+TXN00012,2026-01-13,Monthly State Electricity Board Bill,Electricity,Expense,2800.0,UPI,Salary Account,January,2026
+TXN00013,2026-01-13,Freelance Web Design & Consulting,Freelance,Income,12000.0,Net Banking,Savings Account,January,2026
+TXN00014,2026-01-13,Supermarket & Fresh Provisions,Groceries,Expense,3242.12,Credit Card,Credit Card Account,January,2026
+TXN00015,2026-01-14,Metro card recharge / Auto / Fuel filling,Transportation,Expense,288.51,Cash,Cash Wallet,January,2026
+TXN00016,2026-01-15,Metro card recharge / Auto / Fuel filling,Transportation,Expense,791.61,Credit Card,Credit Card Account,January,2026
+TXN00017,2026-01-15,Supermarket & Fresh Provisions,Groceries,Expense,1226.76,Credit Card,Credit Card Account,January,2026
+TXN00018,2026-01-15,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,2440.92,Credit Card,Credit Card Account,January,2026
+TXN00019,2026-01-20,Supermarket & Fresh Provisions,Groceries,Expense,3976.8,UPI,Salary Account,January,2026
+TXN00020,2026-01-20,Supermarket & Fresh Provisions,Groceries,Expense,1201.09,Credit Card,Credit Card Account,January,2026
+TXN00021,2026-01-21,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1394.48,UPI,Salary Account,January,2026
+TXN00022,2026-01-21,Supermarket & Fresh Provisions,Groceries,Expense,4126.02,UPI,Salary Account,January,2026
+TXN00023,2026-01-23,Supermarket & Fresh Provisions,Groceries,Expense,3422.51,UPI,Salary Account,January,2026
+TXN00024,2026-01-23,Supermarket & Fresh Provisions,Groceries,Expense,813.12,UPI,Savings Account,January,2026
+TXN00025,2026-01-24,Metro card recharge / Auto / Fuel filling,Transportation,Expense,553.99,Cash,Cash Wallet,January,2026
+TXN00026,2026-01-24,Household repairs / Laundry / Miscellaneous,Other Expenses,Expense,621.69,Cash,Cash Wallet,January,2026
+TXN00027,2026-01-28,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1563.06,Debit Card,Salary Account,January,2026
+TXN00028,2026-01-28,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,712.68,UPI,Savings Account,January,2026
+TXN00029,2026-01-30,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,347.78,Credit Card,Credit Card Account,January,2026
+TXN00030,2026-01-30,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,2123.52,UPI,Salary Account,January,2026
+TXN00031,2026-01-31,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,571.04,UPI,Savings Account,January,2026
+TXN00032,2026-02-01,Metro card recharge / Auto / Fuel filling,Transportation,Expense,491.28,Cash,Cash Wallet,February,2026
+TXN00033,2026-02-01,Monthly Corporate Salary Credit,Salary,Income,80000.0,Net Banking,Salary Account,February,2026
+TXN00034,2026-02-01,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1035.11,Credit Card,Credit Card Account,February,2026
+TXN00035,2026-02-05,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,907.74,UPI,Savings Account,February,2026
+TXN00036,2026-02-05,Apartment Monthly Rent,Rent,Expense,20000.0,Net Banking,Salary Account,February,2026
+TXN00037,2026-02-05,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1410.32,Debit Card,Salary Account,February,2026
+TXN00038,2026-02-06,Online certification / Technical books,Education,Expense,2937.11,Net Banking,Salary Account,February,2026
+TXN00039,2026-02-06,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1252.6,Credit Card,Credit Card Account,February,2026
+TXN00040,2026-02-07,High-Speed Broadband Subscription,Internet,Expense,1199.0,UPI,Salary Account,February,2026
+TXN00041,2026-02-07,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1298.39,Debit Card,Savings Account,February,2026
+TXN00042,2026-02-10,Car Loan EMI Auto-debit,EMI,Expense,10500.0,Net Banking,Salary Account,February,2026
+TXN00043,2026-02-11,Online certification / Technical books,Education,Expense,2633.32,Net Banking,Salary Account,February,2026
+TXN00044,2026-02-13,Monthly State Electricity Board Bill,Electricity,Expense,1900.0,UPI,Salary Account,February,2026
+TXN00045,2026-02-13,"Clothing, footwear & personal gear",Shopping,Expense,2961.9,Debit Card,Savings Account,February,2026
+TXN00046,2026-02-13,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1677.22,UPI,Salary Account,February,2026
+TXN00047,2026-02-13,Pharmacy medicines / Clinic consultation,Healthcare,Expense,3182.36,UPI,Savings Account,February,2026
+TXN00048,2026-02-15,Freelance Web Design & Consulting,Freelance,Income,16000.0,UPI,Savings Account,February,2026
+TXN00049,2026-02-16,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1723.78,UPI,Salary Account,February,2026
+TXN00050,2026-02-16,Online certification / Technical books,Education,Expense,1378.34,Credit Card,Credit Card Account,February,2026
+TXN00051,2026-02-16,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,1334.02,UPI,Savings Account,February,2026
+TXN00052,2026-02-17,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,2056.42,UPI,Salary Account,February,2026
+TXN00053,2026-02-17,"Clothing, footwear & personal gear",Shopping,Expense,3347.92,Debit Card,Salary Account,February,2026
+TXN00054,2026-02-17,Supermarket & Fresh Provisions,Groceries,Expense,3828.17,UPI,Savings Account,February,2026
+TXN00055,2026-02-18,Affiliate & Digital Asset Revenue,Business Income,Income,15000.0,UPI,Savings Account,February,2026
+TXN00056,2026-02-20,Household repairs / Laundry / Miscellaneous,Other Expenses,Expense,1188.48,Cash,Cash Wallet,February,2026
+TXN00057,2026-02-21,Flight/Train tickets & weekend getaway stays,Travel,Expense,8548.44,Net Banking,Salary Account,February,2026
+TXN00058,2026-02-21,Flight/Train tickets & weekend getaway stays,Travel,Expense,12553.19,Net Banking,Salary Account,February,2026
+TXN00059,2026-02-21,"Clothing, footwear & personal gear",Shopping,Expense,7278.19,Debit Card,Salary Account,February,2026
+TXN00060,2026-02-22,"Clothing, footwear & personal gear",Shopping,Expense,6289.51,Debit Card,Salary Account,February,2026
+TXN00061,2026-02-22,Pharmacy medicines / Clinic consultation,Healthcare,Expense,2830.89,Debit Card,Savings Account,February,2026
+TXN00062,2026-02-24,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1434.39,UPI,Salary Account,February,2026
+TXN00063,2026-02-25,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1104.83,Cash,Cash Wallet,February,2026
+TXN00064,2026-02-25,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,734.88,UPI,Savings Account,February,2026
+TXN00065,2026-02-28,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1433.36,UPI,Savings Account,February,2026
+TXN00066,2026-02-28,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,1315.19,Credit Card,Credit Card Account,February,2026
+TXN00067,2026-03-01,Supermarket & Fresh Provisions,Groceries,Expense,4091.94,Debit Card,Salary Account,March,2026
+TXN00068,2026-03-01,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,2434.41,UPI,Salary Account,March,2026
+TXN00069,2026-03-03,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,733.42,UPI,Savings Account,March,2026
+TXN00070,2026-03-03,Monthly Corporate Salary Credit,Salary,Income,80000.0,Net Banking,Salary Account,March,2026
+TXN00071,2026-03-04,Metro card recharge / Auto / Fuel filling,Transportation,Expense,903.16,Cash,Cash Wallet,March,2026
+TXN00072,2026-03-05,Apartment Monthly Rent,Rent,Expense,20000.0,Net Banking,Salary Account,March,2026
+TXN00073,2026-03-07,Supermarket & Fresh Provisions,Groceries,Expense,954.77,Credit Card,Credit Card Account,March,2026
+TXN00074,2026-03-07,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1536.51,Debit Card,Salary Account,March,2026
+TXN00075,2026-03-09,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,2069.86,UPI,Salary Account,March,2026
+TXN00076,2026-03-10,High-Speed Broadband Subscription,Internet,Expense,1199.0,UPI,Salary Account,March,2026
+TXN00077,2026-03-10,Car Loan EMI Auto-debit,EMI,Expense,10500.0,Net Banking,Salary Account,March,2026
+TXN00078,2026-03-11,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1580.3,UPI,Salary Account,March,2026
+TXN00079,2026-03-13,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1072.67,Credit Card,Credit Card Account,March,2026
+TXN00080,2026-03-13,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,730.92,Debit Card,Savings Account,March,2026
+TXN00081,2026-03-14,Monthly State Electricity Board Bill,Electricity,Expense,2400.0,UPI,Salary Account,March,2026
+TXN00082,2026-03-14,Online certification / Technical books,Education,Expense,842.79,Credit Card,Credit Card Account,March,2026
+TXN00083,2026-03-18,Freelance Web Design & Consulting,Freelance,Income,13000.0,UPI,Savings Account,March,2026
+TXN00084,2026-03-19,Pharmacy medicines / Clinic consultation,Healthcare,Expense,732.67,Debit Card,Savings Account,March,2026
+TXN00085,2026-03-20,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,979.13,UPI,Salary Account,March,2026
+TXN00086,2026-03-21,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,620.3,UPI,Salary Account,March,2026
+TXN00087,2026-03-23,Supermarket & Fresh Provisions,Groceries,Expense,3713.29,UPI,Savings Account,March,2026
+TXN00088,2026-03-24,Supermarket & Fresh Provisions,Groceries,Expense,3542.55,Debit Card,Savings Account,March,2026
+TXN00089,2026-03-25,Bank Savings & Fixed Deposit Interest,Interest,Income,4100.0,Net Banking,Savings Account,March,2026
+TXN00090,2026-03-26,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1536.83,UPI,Salary Account,March,2026
+TXN00091,2026-03-29,Household repairs / Laundry / Miscellaneous,Other Expenses,Expense,427.59,UPI,Salary Account,March,2026
+TXN00092,2026-03-31,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,1335.1,UPI,Savings Account,March,2026
+TXN00093,2026-04-01,Monthly Corporate Salary Credit,Salary,Income,80000.0,Net Banking,Salary Account,April,2026
+TXN00094,2026-04-01,Supermarket & Fresh Provisions,Groceries,Expense,4061.24,UPI,Salary Account,April,2026
+TXN00095,2026-04-02,Supermarket & Fresh Provisions,Groceries,Expense,2948.18,Credit Card,Credit Card Account,April,2026
+TXN00096,2026-04-03,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,2493.28,UPI,Savings Account,April,2026
+TXN00097,2026-04-05,Pharmacy medicines / Clinic consultation,Healthcare,Expense,3099.94,Cash,Cash Wallet,April,2026
+TXN00098,2026-04-05,Apartment Monthly Rent,Rent,Expense,20000.0,Net Banking,Salary Account,April,2026
+TXN00099,2026-04-08,High-Speed Broadband Subscription,Internet,Expense,1199.0,UPI,Salary Account,April,2026
+TXN00100,2026-04-09,"Clothing, footwear & personal gear",Shopping,Expense,2779.61,Debit Card,Savings Account,April,2026
+TXN00101,2026-04-10,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1335.27,Cash,Cash Wallet,April,2026
+TXN00102,2026-04-10,Car Loan EMI Auto-debit,EMI,Expense,10500.0,Net Banking,Salary Account,April,2026
+TXN00103,2026-04-14,Monthly State Electricity Board Bill,Electricity,Expense,2800.0,UPI,Salary Account,April,2026
+TXN00104,2026-04-15,Supermarket & Fresh Provisions,Groceries,Expense,3343.74,Credit Card,Credit Card Account,April,2026
+TXN00105,2026-04-15,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,887.52,Credit Card,Credit Card Account,April,2026
+TXN00106,2026-04-17,Pharmacy medicines / Clinic consultation,Healthcare,Expense,2113.99,Cash,Cash Wallet,April,2026
+TXN00107,2026-04-19,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,2061.38,Debit Card,Salary Account,April,2026
+TXN00108,2026-04-19,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1528.11,Credit Card,Credit Card Account,April,2026
+TXN00109,2026-04-20,Metro card recharge / Auto / Fuel filling,Transportation,Expense,255.98,Cash,Cash Wallet,April,2026
+TXN00110,2026-04-22,Metro card recharge / Auto / Fuel filling,Transportation,Expense,917.31,Cash,Cash Wallet,April,2026
+TXN00111,2026-04-23,Metro card recharge / Auto / Fuel filling,Transportation,Expense,600.34,Cash,Cash Wallet,April,2026
+TXN00112,2026-04-25,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1222.74,Credit Card,Credit Card Account,April,2026
+TXN00113,2026-04-26,Supermarket & Fresh Provisions,Groceries,Expense,3784.28,UPI,Salary Account,April,2026
+TXN00114,2026-04-27,Flight/Train tickets & weekend getaway stays,Travel,Expense,11087.81,Net Banking,Salary Account,April,2026
+TXN00115,2026-04-28,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,381.43,UPI,Savings Account,April,2026
+TXN00116,2026-04-29,Household repairs / Laundry / Miscellaneous,Other Expenses,Expense,799.49,UPI,Savings Account,April,2026
+TXN00117,2026-05-01,Flight/Train tickets & weekend getaway stays,Travel,Expense,9758.35,Net Banking,Salary Account,May,2026
+TXN00118,2026-05-01,Metro card recharge / Auto / Fuel filling,Transportation,Expense,598.33,Cash,Cash Wallet,May,2026
+TXN00119,2026-05-02,Household repairs / Laundry / Miscellaneous,Other Expenses,Expense,695.77,UPI,Savings Account,May,2026
+TXN00120,2026-05-03,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,362.95,Debit Card,Salary Account,May,2026
+TXN00121,2026-05-03,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,767.95,UPI,Savings Account,May,2026
+TXN00122,2026-05-03,Monthly Corporate Salary Credit,Salary,Income,80000.0,Net Banking,Salary Account,May,2026
+TXN00123,2026-05-05,Apartment Monthly Rent,Rent,Expense,20000.0,Net Banking,Salary Account,May,2026
+TXN00124,2026-05-06,Household repairs / Laundry / Miscellaneous,Other Expenses,Expense,890.52,Cash,Cash Wallet,May,2026
+TXN00125,2026-05-08,High-Speed Broadband Subscription,Internet,Expense,1199.0,UPI,Salary Account,May,2026
+TXN00126,2026-05-09,"Clothing, footwear & personal gear",Shopping,Expense,2882.93,UPI,Salary Account,May,2026
+TXN00127,2026-05-10,Car Loan EMI Auto-debit,EMI,Expense,10500.0,Net Banking,Salary Account,May,2026
+TXN00128,2026-05-10,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1527.6,Cash,Cash Wallet,May,2026
+TXN00129,2026-05-11,Household repairs / Laundry / Miscellaneous,Other Expenses,Expense,1066.89,UPI,Savings Account,May,2026
+TXN00130,2026-05-14,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,648.31,Debit Card,Savings Account,May,2026
+TXN00131,2026-05-14,Metro card recharge / Auto / Fuel filling,Transportation,Expense,775.52,UPI,Savings Account,May,2026
+TXN00132,2026-05-14,Monthly State Electricity Board Bill,Electricity,Expense,2300.0,UPI,Salary Account,May,2026
+TXN00133,2026-05-16,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,2056.71,Credit Card,Credit Card Account,May,2026
+TXN00134,2026-05-16,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1278.96,Debit Card,Savings Account,May,2026
+TXN00135,2026-05-20,Supermarket & Fresh Provisions,Groceries,Expense,1842.5,UPI,Savings Account,May,2026
+TXN00136,2026-05-21,Pharmacy medicines / Clinic consultation,Healthcare,Expense,432.0,UPI,Savings Account,May,2026
+TXN00137,2026-05-21,Freelance Web Design & Consulting,Freelance,Income,12000.0,UPI,Savings Account,May,2026
+TXN00138,2026-05-23,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1390.82,Cash,Cash Wallet,May,2026
+TXN00139,2026-05-23,"Clothing, footwear & personal gear",Shopping,Expense,7635.91,Credit Card,Credit Card Account,May,2026
+TXN00140,2026-05-24,"Clothing, footwear & personal gear",Shopping,Expense,7626.34,UPI,Savings Account,May,2026
+TXN00141,2026-05-25,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,1897.31,UPI,Salary Account,May,2026
+TXN00142,2026-05-27,Supermarket & Fresh Provisions,Groceries,Expense,1577.68,Debit Card,Savings Account,May,2026
+TXN00143,2026-05-27,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1074.86,Debit Card,Savings Account,May,2026
+TXN00144,2026-05-28,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,1263.86,UPI,Salary Account,May,2026
+TXN00145,2026-05-30,Online certification / Technical books,Education,Expense,710.98,Net Banking,Salary Account,May,2026
+TXN00146,2026-05-31,Household repairs / Laundry / Miscellaneous,Other Expenses,Expense,666.0,UPI,Salary Account,May,2026
+TXN00147,2026-06-02,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1393.23,Cash,Cash Wallet,June,2026
+TXN00148,2026-06-02,Pharmacy medicines / Clinic consultation,Healthcare,Expense,2794.48,Cash,Cash Wallet,June,2026
+TXN00149,2026-06-03,Monthly Corporate Salary Credit,Salary,Income,80000.0,Net Banking,Salary Account,June,2026
+TXN00150,2026-06-05,Apartment Monthly Rent,Rent,Expense,20000.0,Net Banking,Salary Account,June,2026
+TXN00151,2026-06-06,Pharmacy medicines / Clinic consultation,Healthcare,Expense,1949.03,UPI,Salary Account,June,2026
+TXN00152,2026-06-06,"Clothing, footwear & personal gear",Shopping,Expense,6046.91,Debit Card,Savings Account,June,2026
+TXN00153,2026-06-07,Online certification / Technical books,Education,Expense,2623.15,Net Banking,Salary Account,June,2026
+TXN00154,2026-06-07,High-Speed Broadband Subscription,Internet,Expense,1199.0,UPI,Salary Account,June,2026
+TXN00155,2026-06-08,Household repairs / Laundry / Miscellaneous,Other Expenses,Expense,1225.19,Cash,Cash Wallet,June,2026
+TXN00156,2026-06-09,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1028.03,Debit Card,Savings Account,June,2026
+TXN00157,2026-06-10,Car Loan EMI Auto-debit,EMI,Expense,10500.0,Net Banking,Salary Account,June,2026
+TXN00158,2026-06-11,"Clothing, footwear & personal gear",Shopping,Expense,2072.75,UPI,Salary Account,June,2026
+TXN00159,2026-06-12,Flight/Train tickets & weekend getaway stays,Travel,Expense,9708.19,Net Banking,Salary Account,June,2026
+TXN00160,2026-06-12,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,1938.35,UPI,Savings Account,June,2026
+TXN00161,2026-06-14,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,2213.12,Credit Card,Credit Card Account,June,2026
+TXN00162,2026-06-14,Monthly State Electricity Board Bill,Electricity,Expense,2800.0,UPI,Salary Account,June,2026
+TXN00163,2026-06-14,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,1774.29,Credit Card,Credit Card Account,June,2026
+TXN00164,2026-06-15,Online certification / Technical books,Education,Expense,2652.63,Credit Card,Credit Card Account,June,2026
+TXN00165,2026-06-15,"Clothing, footwear & personal gear",Shopping,Expense,7417.51,Credit Card,Credit Card Account,June,2026
+TXN00166,2026-06-17,Supermarket & Fresh Provisions,Groceries,Expense,2288.88,Credit Card,Credit Card Account,June,2026
+TXN00167,2026-06-17,Metro card recharge / Auto / Fuel filling,Transportation,Expense,706.88,Cash,Cash Wallet,June,2026
+TXN00168,2026-06-18,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,1205.62,UPI,Savings Account,June,2026
+TXN00169,2026-06-18,Supermarket & Fresh Provisions,Groceries,Expense,1830.83,UPI,Savings Account,June,2026
+TXN00170,2026-06-19,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1045.31,Cash,Cash Wallet,June,2026
+TXN00171,2026-06-20,Supermarket & Fresh Provisions,Groceries,Expense,3694.83,Credit Card,Credit Card Account,June,2026
+TXN00172,2026-06-22,Freelance Web Design & Consulting,Freelance,Income,25000.0,UPI,Savings Account,June,2026
+TXN00173,2026-06-22,"Clothing, footwear & personal gear",Shopping,Expense,1409.51,Debit Card,Salary Account,June,2026
+TXN00174,2026-06-23,Flight/Train tickets & weekend getaway stays,Travel,Expense,9667.48,Net Banking,Salary Account,June,2026
+TXN00175,2026-06-26,Supermarket & Fresh Provisions,Groceries,Expense,3495.62,Credit Card,Credit Card Account,June,2026
+TXN00176,2026-06-28,Bank Savings & Fixed Deposit Interest,Interest,Income,5300.0,Net Banking,Savings Account,June,2026
+TXN00177,2026-06-29,Supermarket & Fresh Provisions,Groceries,Expense,3173.48,Credit Card,Credit Card Account,June,2026
+TXN00178,2026-06-30,"Clothing, footwear & personal gear",Shopping,Expense,6330.84,Debit Card,Savings Account,June,2026
+TXN00179,2026-07-01,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1075.98,Credit Card,Credit Card Account,July,2026
+TXN00180,2026-07-02,Monthly Corporate Salary Credit,Salary,Income,80000.0,Net Banking,Salary Account,July,2026
+TXN00181,2026-07-04,Pharmacy medicines / Clinic consultation,Healthcare,Expense,820.38,UPI,Salary Account,July,2026
+TXN00182,2026-07-05,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1963.51,Credit Card,Credit Card Account,July,2026
+TXN00183,2026-07-05,Apartment Monthly Rent,Rent,Expense,20000.0,Net Banking,Salary Account,July,2026
+TXN00184,2026-07-05,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,677.68,UPI,Savings Account,July,2026
+TXN00185,2026-07-06,Supermarket & Fresh Provisions,Groceries,Expense,2395.8,Debit Card,Savings Account,July,2026
+TXN00186,2026-07-08,Metro card recharge / Auto / Fuel filling,Transportation,Expense,426.85,Credit Card,Credit Card Account,July,2026
+TXN00187,2026-07-09,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,805.73,Credit Card,Credit Card Account,July,2026
+TXN00188,2026-07-10,Car Loan EMI Auto-debit,EMI,Expense,10500.0,Net Banking,Salary Account,July,2026
+TXN00189,2026-07-11,High-Speed Broadband Subscription,Internet,Expense,1199.0,UPI,Salary Account,July,2026
+TXN00190,2026-07-12,Freelance Web Design & Consulting,Freelance,Income,17000.0,Net Banking,Savings Account,July,2026
+TXN00191,2026-07-13,Monthly State Electricity Board Bill,Electricity,Expense,2700.0,UPI,Salary Account,July,2026
+TXN00192,2026-07-14,Metro card recharge / Auto / Fuel filling,Transportation,Expense,937.02,Cash,Cash Wallet,July,2026
+TXN00193,2026-07-14,Affiliate & Digital Asset Revenue,Business Income,Income,10000.0,UPI,Savings Account,July,2026
+TXN00194,2026-07-16,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,719.34,Credit Card,Credit Card Account,July,2026
+TXN00195,2026-07-16,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1295.02,Credit Card,Credit Card Account,July,2026
+TXN00196,2026-07-16,Household repairs / Laundry / Miscellaneous,Other Expenses,Expense,1309.34,Cash,Cash Wallet,July,2026
+TXN00197,2026-07-17,Supermarket & Fresh Provisions,Groceries,Expense,4128.17,UPI,Savings Account,July,2026
+TXN00198,2026-07-19,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1642.98,Credit Card,Credit Card Account,July,2026
+TXN00199,2026-07-21,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1126.62,Credit Card,Credit Card Account,July,2026
+TXN00200,2026-07-23,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1703.43,UPI,Salary Account,July,2026
+TXN00201,2026-07-25,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,772.09,UPI,Savings Account,July,2026
+TXN00202,2026-07-26,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,483.78,Debit Card,Salary Account,July,2026
+TXN00203,2026-07-28,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,621.3,UPI,Savings Account,July,2026
+TXN00204,2026-07-28,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1197.0,UPI,Savings Account,July,2026
+TXN00205,2026-08-01,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1612.13,Credit Card,Credit Card Account,August,2026
+TXN00206,2026-08-01,Monthly Corporate Salary Credit,Salary,Income,80000.0,Net Banking,Salary Account,August,2026
+TXN00207,2026-08-03,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1531.88,Debit Card,Savings Account,August,2026
+TXN00208,2026-08-05,Apartment Monthly Rent,Rent,Expense,20000.0,Net Banking,Salary Account,August,2026
+TXN00209,2026-08-06,Online certification / Technical books,Education,Expense,990.24,Credit Card,Credit Card Account,August,2026
+TXN00210,2026-08-07,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1520.44,Credit Card,Credit Card Account,August,2026
+TXN00211,2026-08-08,High-Speed Broadband Subscription,Internet,Expense,1199.0,UPI,Salary Account,August,2026
+TXN00212,2026-08-10,Car Loan EMI Auto-debit,EMI,Expense,10500.0,Net Banking,Salary Account,August,2026
+TXN00213,2026-08-10,"Clothing, footwear & personal gear",Shopping,Expense,8213.75,UPI,Savings Account,August,2026
+TXN00214,2026-08-11,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,558.41,UPI,Savings Account,August,2026
+TXN00215,2026-08-12,Supermarket & Fresh Provisions,Groceries,Expense,3042.97,Debit Card,Salary Account,August,2026
+TXN00216,2026-08-13,Monthly State Electricity Board Bill,Electricity,Expense,2900.0,UPI,Salary Account,August,2026
+TXN00217,2026-08-13,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,2004.25,Credit Card,Credit Card Account,August,2026
+TXN00218,2026-08-13,Online certification / Technical books,Education,Expense,1022.8,Net Banking,Salary Account,August,2026
+TXN00219,2026-08-14,Metro card recharge / Auto / Fuel filling,Transportation,Expense,277.85,Cash,Cash Wallet,August,2026
+TXN00220,2026-08-15,Household repairs / Laundry / Miscellaneous,Other Expenses,Expense,1428.81,UPI,Savings Account,August,2026
+TXN00221,2026-08-16,Household repairs / Laundry / Miscellaneous,Other Expenses,Expense,416.27,UPI,Salary Account,August,2026
+TXN00222,2026-08-17,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,1484.88,UPI,Savings Account,August,2026
+TXN00223,2026-08-17,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1630.39,Credit Card,Credit Card Account,August,2026
+TXN00224,2026-08-17,Freelance Web Design & Consulting,Freelance,Income,15000.0,UPI,Savings Account,August,2026
+TXN00225,2026-08-19,Pharmacy medicines / Clinic consultation,Healthcare,Expense,2299.18,Cash,Cash Wallet,August,2026
+TXN00226,2026-08-21,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,493.73,UPI,Savings Account,August,2026
+TXN00227,2026-08-23,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,866.55,UPI,Salary Account,August,2026
+TXN00228,2026-08-23,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1461.26,Debit Card,Salary Account,August,2026
+TXN00229,2026-08-24,Supermarket & Fresh Provisions,Groceries,Expense,2093.74,UPI,Salary Account,August,2026
+TXN00230,2026-08-25,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,737.12,UPI,Savings Account,August,2026
+TXN00231,2026-08-26,"Clothing, footwear & personal gear",Shopping,Expense,5359.9,UPI,Savings Account,August,2026
+TXN00232,2026-08-27,Supermarket & Fresh Provisions,Groceries,Expense,2434.61,Debit Card,Salary Account,August,2026
+TXN00233,2026-08-27,"Clothing, footwear & personal gear",Shopping,Expense,4379.69,UPI,Savings Account,August,2026
+TXN00234,2026-08-29,Flight/Train tickets & weekend getaway stays,Travel,Expense,11487.54,Net Banking,Salary Account,August,2026
+TXN00235,2026-08-29,Pharmacy medicines / Clinic consultation,Healthcare,Expense,1688.27,Cash,Cash Wallet,August,2026
+TXN00236,2026-08-30,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,836.21,Credit Card,Credit Card Account,August,2026
+TXN00237,2026-08-31,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1254.61,Credit Card,Credit Card Account,August,2026
+TXN00238,2026-09-01,Metro card recharge / Auto / Fuel filling,Transportation,Expense,892.62,UPI,Savings Account,September,2026
+TXN00239,2026-09-02,Monthly Corporate Salary Credit,Salary,Income,80000.0,Net Banking,Salary Account,September,2026
+TXN00240,2026-09-02,Pharmacy medicines / Clinic consultation,Healthcare,Expense,630.85,UPI,Savings Account,September,2026
+TXN00241,2026-09-05,Apartment Monthly Rent,Rent,Expense,20000.0,Net Banking,Salary Account,September,2026
+TXN00242,2026-09-07,"Clothing, footwear & personal gear",Shopping,Expense,2748.47,Debit Card,Savings Account,September,2026
+TXN00243,2026-09-09,Pharmacy medicines / Clinic consultation,Healthcare,Expense,514.84,Debit Card,Salary Account,September,2026
+TXN00244,2026-09-09,High-Speed Broadband Subscription,Internet,Expense,1199.0,UPI,Salary Account,September,2026
+TXN00245,2026-09-10,Car Loan EMI Auto-debit,EMI,Expense,10500.0,Net Banking,Salary Account,September,2026
+TXN00246,2026-09-11,Metro card recharge / Auto / Fuel filling,Transportation,Expense,809.43,UPI,Salary Account,September,2026
+TXN00247,2026-09-11,Flight/Train tickets & weekend getaway stays,Travel,Expense,13595.48,Credit Card,Credit Card Account,September,2026
+TXN00248,2026-09-12,Household repairs / Laundry / Miscellaneous,Other Expenses,Expense,1386.68,Cash,Cash Wallet,September,2026
+TXN00249,2026-09-14,Online certification / Technical books,Education,Expense,2435.94,Net Banking,Salary Account,September,2026
+TXN00250,2026-09-14,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1735.83,Debit Card,Salary Account,September,2026
+TXN00251,2026-09-15,Monthly State Electricity Board Bill,Electricity,Expense,2500.0,UPI,Salary Account,September,2026
+TXN00252,2026-09-15,Flight/Train tickets & weekend getaway stays,Travel,Expense,13601.57,Net Banking,Salary Account,September,2026
+TXN00253,2026-09-15,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,2042.8,Debit Card,Salary Account,September,2026
+TXN00254,2026-09-16,Supermarket & Fresh Provisions,Groceries,Expense,2607.57,UPI,Salary Account,September,2026
+TXN00255,2026-09-17,Supermarket & Fresh Provisions,Groceries,Expense,1944.35,Credit Card,Credit Card Account,September,2026
+TXN00256,2026-09-17,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,887.78,Credit Card,Credit Card Account,September,2026
+TXN00257,2026-09-18,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,1851.91,UPI,Savings Account,September,2026
+TXN00258,2026-09-19,Supermarket & Fresh Provisions,Groceries,Expense,2550.79,Debit Card,Salary Account,September,2026
+TXN00259,2026-09-24,Metro card recharge / Auto / Fuel filling,Transportation,Expense,949.59,UPI,Savings Account,September,2026
+TXN00260,2026-09-25,Pharmacy medicines / Clinic consultation,Healthcare,Expense,1403.1,Cash,Cash Wallet,September,2026
+TXN00261,2026-09-25,Bank Savings & Fixed Deposit Interest,Interest,Income,4600.0,Net Banking,Savings Account,September,2026
+TXN00262,2026-09-25,"Clothing, footwear & personal gear",Shopping,Expense,8247.96,Debit Card,Savings Account,September,2026
+TXN00263,2026-10-02,Monthly Corporate Salary Credit,Salary,Income,80000.0,Net Banking,Salary Account,October,2026
+TXN00264,2026-10-03,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1383.4,Credit Card,Credit Card Account,October,2026
+TXN00265,2026-10-04,Metro card recharge / Auto / Fuel filling,Transportation,Expense,282.95,UPI,Salary Account,October,2026
+TXN00266,2026-10-05,Apartment Monthly Rent,Rent,Expense,20000.0,Net Banking,Salary Account,October,2026
+TXN00267,2026-10-05,Flight/Train tickets & weekend getaway stays,Travel,Expense,2912.84,Credit Card,Credit Card Account,October,2026
+TXN00268,2026-10-06,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1621.9,Debit Card,Salary Account,October,2026
+TXN00269,2026-10-07,Supermarket & Fresh Provisions,Groceries,Expense,933.3,Credit Card,Credit Card Account,October,2026
+TXN00270,2026-10-08,Supermarket & Fresh Provisions,Groceries,Expense,3884.78,Credit Card,Credit Card Account,October,2026
+TXN00271,2026-10-08,High-Speed Broadband Subscription,Internet,Expense,1199.0,UPI,Salary Account,October,2026
+TXN00272,2026-10-09,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,440.92,Debit Card,Salary Account,October,2026
+TXN00273,2026-10-10,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,1978.32,UPI,Savings Account,October,2026
+TXN00274,2026-10-10,Car Loan EMI Auto-debit,EMI,Expense,10500.0,Net Banking,Salary Account,October,2026
+TXN00275,2026-10-10,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,1197.58,Credit Card,Credit Card Account,October,2026
+TXN00276,2026-10-10,Pharmacy medicines / Clinic consultation,Healthcare,Expense,517.69,UPI,Savings Account,October,2026
+TXN00277,2026-10-11,Supermarket & Fresh Provisions,Groceries,Expense,1270.96,Credit Card,Credit Card Account,October,2026
+TXN00278,2026-10-11,"Clothing, footwear & personal gear",Shopping,Expense,5075.73,Debit Card,Savings Account,October,2026
+TXN00279,2026-10-11,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1928.52,UPI,Salary Account,October,2026
+TXN00280,2026-10-12,"Clothing, footwear & personal gear",Shopping,Expense,1274.1,Credit Card,Credit Card Account,October,2026
+TXN00281,2026-10-12,"Clothing, footwear & personal gear",Shopping,Expense,6734.6,UPI,Savings Account,October,2026
+TXN00282,2026-10-15,Supermarket & Fresh Provisions,Groceries,Expense,835.78,UPI,Salary Account,October,2026
+TXN00283,2026-10-16,Monthly State Electricity Board Bill,Electricity,Expense,3200.0,UPI,Salary Account,October,2026
+TXN00284,2026-10-17,"Clothing, footwear & personal gear",Shopping,Expense,6913.24,Debit Card,Savings Account,October,2026
+TXN00285,2026-10-20,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,1142.54,UPI,Salary Account,October,2026
+TXN00286,2026-10-20,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1373.61,UPI,Savings Account,October,2026
+TXN00287,2026-10-21,Freelance Web Design & Consulting,Freelance,Income,20000.0,UPI,Savings Account,October,2026
+TXN00288,2026-10-22,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1267.62,Cash,Cash Wallet,October,2026
+TXN00289,2026-10-24,Household repairs / Laundry / Miscellaneous,Other Expenses,Expense,674.32,Cash,Cash Wallet,October,2026
+TXN00290,2026-10-24,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1409.31,Debit Card,Salary Account,October,2026
+TXN00291,2026-10-24,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1684.69,UPI,Savings Account,October,2026
+TXN00292,2026-10-26,Supermarket & Fresh Provisions,Groceries,Expense,2844.34,Credit Card,Credit Card Account,October,2026
+TXN00293,2026-10-27,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1085.45,Debit Card,Savings Account,October,2026
+TXN00294,2026-10-29,"Clothing, footwear & personal gear",Shopping,Expense,8329.23,UPI,Savings Account,October,2026
+TXN00295,2026-10-31,"Clothing, footwear & personal gear",Shopping,Expense,6241.49,UPI,Salary Account,October,2026
+TXN00296,2026-11-01,Metro card recharge / Auto / Fuel filling,Transportation,Expense,673.54,Cash,Cash Wallet,November,2026
+TXN00297,2026-11-02,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,2192.44,Debit Card,Savings Account,November,2026
+TXN00298,2026-11-02,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,373.88,Credit Card,Credit Card Account,November,2026
+TXN00299,2026-11-03,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,882.1,UPI,Salary Account,November,2026
+TXN00300,2026-11-03,Monthly Corporate Salary Credit,Salary,Income,80000.0,Net Banking,Salary Account,November,2026
+TXN00301,2026-11-05,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1631.39,Cash,Cash Wallet,November,2026
+TXN00302,2026-11-05,Apartment Monthly Rent,Rent,Expense,20000.0,Net Banking,Salary Account,November,2026
+TXN00303,2026-11-07,Household repairs / Laundry / Miscellaneous,Other Expenses,Expense,1168.72,UPI,Salary Account,November,2026
+TXN00304,2026-11-07,Pharmacy medicines / Clinic consultation,Healthcare,Expense,2028.77,Debit Card,Salary Account,November,2026
+TXN00305,2026-11-07,Household repairs / Laundry / Miscellaneous,Other Expenses,Expense,1242.51,Cash,Cash Wallet,November,2026
+TXN00306,2026-11-07,High-Speed Broadband Subscription,Internet,Expense,1199.0,UPI,Salary Account,November,2026
+TXN00307,2026-11-09,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1552.07,UPI,Savings Account,November,2026
+TXN00308,2026-11-10,Car Loan EMI Auto-debit,EMI,Expense,10500.0,Net Banking,Salary Account,November,2026
+TXN00309,2026-11-10,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1494.76,Credit Card,Credit Card Account,November,2026
+TXN00310,2026-11-12,Supermarket & Fresh Provisions,Groceries,Expense,2905.69,Credit Card,Credit Card Account,November,2026
+TXN00311,2026-11-14,Monthly State Electricity Board Bill,Electricity,Expense,2800.0,UPI,Salary Account,November,2026
+TXN00312,2026-11-14,Supermarket & Fresh Provisions,Groceries,Expense,3573.07,UPI,Salary Account,November,2026
+TXN00313,2026-11-16,Supermarket & Fresh Provisions,Groceries,Expense,1961.49,UPI,Savings Account,November,2026
+TXN00314,2026-11-17,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,831.97,Debit Card,Salary Account,November,2026
+TXN00315,2026-11-17,Online certification / Technical books,Education,Expense,2605.28,Credit Card,Credit Card Account,November,2026
+TXN00316,2026-11-17,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,1272.49,Credit Card,Credit Card Account,November,2026
+TXN00317,2026-11-18,Affiliate & Digital Asset Revenue,Other Income,Income,6000.0,UPI,Savings Account,November,2026
+TXN00318,2026-11-18,Household repairs / Laundry / Miscellaneous,Other Expenses,Expense,326.31,Cash,Cash Wallet,November,2026
+TXN00319,2026-11-18,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,561.96,Debit Card,Savings Account,November,2026
+TXN00320,2026-11-19,Freelance Web Design & Consulting,Freelance,Income,15000.0,Net Banking,Savings Account,November,2026
+TXN00321,2026-11-21,Supermarket & Fresh Provisions,Groceries,Expense,2367.23,Credit Card,Credit Card Account,November,2026
+TXN00322,2026-11-22,Household repairs / Laundry / Miscellaneous,Other Expenses,Expense,447.17,UPI,Salary Account,November,2026
+TXN00323,2026-11-25,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,913.34,Credit Card,Credit Card Account,November,2026
+TXN00324,2026-11-26,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1144.76,Credit Card,Credit Card Account,November,2026
+TXN00325,2026-11-27,"Clothing, footwear & personal gear",Shopping,Expense,6396.45,Debit Card,Salary Account,November,2026
+TXN00326,2026-11-28,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,2130.71,UPI,Savings Account,November,2026
+TXN00327,2026-11-28,Online certification / Technical books,Education,Expense,1106.56,Net Banking,Salary Account,November,2026
+TXN00328,2026-11-29,Flight/Train tickets & weekend getaway stays,Travel,Expense,3423.63,Net Banking,Salary Account,November,2026
+TXN00329,2026-12-02,Flight/Train tickets & weekend getaway stays,Travel,Expense,13654.5,Credit Card,Credit Card Account,December,2026
+TXN00330,2026-12-03,Monthly Corporate Salary Credit,Salary,Income,80000.0,Net Banking,Salary Account,December,2026
+TXN00331,2026-12-03,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,2212.61,UPI,Savings Account,December,2026
+TXN00332,2026-12-04,Supermarket & Fresh Provisions,Groceries,Expense,1113.74,Debit Card,Savings Account,December,2026
+TXN00333,2026-12-05,"Clothing, footwear & personal gear",Shopping,Expense,3905.17,UPI,Savings Account,December,2026
+TXN00334,2026-12-05,Pharmacy medicines / Clinic consultation,Healthcare,Expense,535.44,UPI,Salary Account,December,2026
+TXN00335,2026-12-05,Apartment Monthly Rent,Rent,Expense,20000.0,Net Banking,Salary Account,December,2026
+TXN00336,2026-12-06,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,451.99,UPI,Savings Account,December,2026
+TXN00337,2026-12-06,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,2379.43,Credit Card,Credit Card Account,December,2026
+TXN00338,2026-12-06,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,2043.27,Credit Card,Credit Card Account,December,2026
+TXN00339,2026-12-07,Supermarket & Fresh Provisions,Groceries,Expense,4279.35,Debit Card,Salary Account,December,2026
+TXN00340,2026-12-08,Supermarket & Fresh Provisions,Groceries,Expense,1180.34,Debit Card,Savings Account,December,2026
+TXN00341,2026-12-08,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1843.35,Credit Card,Credit Card Account,December,2026
+TXN00342,2026-12-08,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1026.37,Credit Card,Credit Card Account,December,2026
+TXN00343,2026-12-09,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1196.56,Debit Card,Salary Account,December,2026
+TXN00344,2026-12-09,High-Speed Broadband Subscription,Internet,Expense,1199.0,UPI,Salary Account,December,2026
+TXN00345,2026-12-09,Supermarket & Fresh Provisions,Groceries,Expense,3997.04,UPI,Savings Account,December,2026
+TXN00346,2026-12-10,Car Loan EMI Auto-debit,EMI,Expense,10500.0,Net Banking,Salary Account,December,2026
+TXN00347,2026-12-11,Online certification / Technical books,Education,Expense,3392.83,Credit Card,Credit Card Account,December,2026
+TXN00348,2026-12-12,Flight/Train tickets & weekend getaway stays,Travel,Expense,12382.44,Net Banking,Salary Account,December,2026
+TXN00349,2026-12-12,Monthly State Electricity Board Bill,Electricity,Expense,2100.0,UPI,Salary Account,December,2026
+TXN00350,2026-12-13,Household repairs / Laundry / Miscellaneous,Other Expenses,Expense,910.58,Cash,Cash Wallet,December,2026
+TXN00351,2026-12-14,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1466.93,Credit Card,Credit Card Account,December,2026
+TXN00352,2026-12-14,Supermarket & Fresh Provisions,Groceries,Expense,4430.25,Debit Card,Savings Account,December,2026
+TXN00353,2026-12-16,Dining at Restaurant / Swiggy / Zomato order,Food,Expense,1975.34,Credit Card,Credit Card Account,December,2026
+TXN00354,2026-12-20,Household repairs / Laundry / Miscellaneous,Other Expenses,Expense,525.13,UPI,Salary Account,December,2026
+TXN00355,2026-12-21,Freelance Web Design & Consulting,Freelance,Income,23000.0,UPI,Savings Account,December,2026
+TXN00356,2026-12-23,Metro card recharge / Auto / Fuel filling,Transportation,Expense,1004.63,UPI,Salary Account,December,2026
+TXN00357,2026-12-23,Metro card recharge / Auto / Fuel filling,Transportation,Expense,182.23,Credit Card,Credit Card Account,December,2026
+TXN00358,2026-12-24,Pharmacy medicines / Clinic consultation,Healthcare,Expense,3037.86,Debit Card,Savings Account,December,2026
+TXN00359,2026-12-25,Bank Savings & Fixed Deposit Interest,Interest,Income,3600.0,Net Banking,Savings Account,December,2026
+TXN00360,2026-12-25,Household repairs / Laundry / Miscellaneous,Other Expenses,Expense,583.8,UPI,Savings Account,December,2026
+TXN00361,2026-12-25,Online certification / Technical books,Education,Expense,1968.53,Net Banking,Salary Account,December,2026
+TXN00362,2026-12-28,Online certification / Technical books,Education,Expense,1561.24,Net Banking,Salary Account,December,2026
+TXN00363,2026-12-29,"Clothing, footwear & personal gear",Shopping,Expense,2316.84,Credit Card,Credit Card Account,December,2026
+TXN00364,2026-12-30,Movie tickets / OTT streaming subscriptions / Gaming,Entertainment,Expense,648.43,Credit Card,Credit Card Account,December,2026
